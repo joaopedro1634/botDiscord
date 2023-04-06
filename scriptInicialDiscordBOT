@@ -1,0 +1,38 @@
+Olá, pessoal
+
+Esse é um mini script de como criar um Bot para envio de mensagens no Discord! A partir desse projeto pretendo
+ir implementando algumas funcionalidades no decorrer do ano.
+
+OBS: É importante ressaltar que nesse primeiro momento o Bot Irá ficar ativo no seu servidor, porém,
+as funcionalidades de envio de mensagem funcionará apenas nas mensagens privadas ao enviar para ele!
+Com as atualizações do Discord, algumas funcionalidades ficaram limitadas... Mas é só o começo!!
+************************************************************************************************
+Vamos lá!
+
+1º - Você deve logar no site do Discord
+2º - Localize a parte de desenvolvedores
+3º - Clique no botão 'New Application' ou 'Nova aplicação'
+4º - Dê um nome para a aplicação
+5º - Navegue até a aba BOT e clique em 'ADD Bot'. Confirme clicando em 'Yes, do it'
+6º - Importante manter a coniguração padrão Public Bot (MARCADO) e Require OAuth2CodeGrant (DESMARCADO)
+*****Pronto! Seu BOT foi criado!*****
+7º - Copie o TOKEN. O Token é a senha do seu BOT, sendo assim, vale ressaltar, não compartilhe com ninguém.
+Caso seu TOKEN 'vaze', você pode gerar um novo, mas evite a dor de cabeça!
+8º - Vá até a Guia 'OAuth2' e selecione 'BOT' na seção 'SCOPES'
+9º - Escolha as permissões do seu Bot, como esse bot está com a funcionalidade de enviar mensagens, marque essa
+opção. Apenas atente-se a opção de 'Administrador'.
+10º - Após fazer isso, abaixo terá o link (URL) do seu BOT para ser adcionado à um servidor. Copie e cole
+no navegador.
+****Bot adicionado ao servidor****
+11º - A partir desse momento começaremos a programar as primeiras funcionalidades do BOT.
+OBS: Linhas de códigos comentadas!
+******
+12º - Como executar o BOT: Se estiver escrevendo o bot em sua máquina,
+pode usar os seguintes comando no terminal/prompt de comando para executar o bot:
+No Windows:
+'py -3 main.py'
+Outros:
+'python3 main.py'
+******
+13º Agora vá até o seu servidor, entre no chat PV com o Bot e digite '+Start'.
+O BOT deve retornar 'O Bot está ATIVO', como mostra o print;
